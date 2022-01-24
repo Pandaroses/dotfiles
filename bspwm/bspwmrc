@@ -1,0 +1,41 @@
+#!/bin/sh
+
+#Autostart
+pgrep -x sxhkd > /dev/null || sxhkd &
+pgrep -x picom > /dev/null || picom & #if needed, add "killall picom"
+pgrep -x dunst > /dev/null || dunst &
+pgrep -x nitrogen > /dev/null || nitrogen --restore &
+pgrep -x unclutter > /dev/null || unclutter &
+pactl set-sink-volume @DEFAULT_SINK@ 100%
+#redshift -x && redshift -O 4000k &
+xsetroot -cursor_name left_ptr &
+killall polybar
+$HOME/.config/polybar/launch.sh &
+#polybar example &
+
+killall rclone
+rclone --vfs-cache-mode writes mount onedrive: /home/alec/onedrive &
+rclone --vfs-cache-mode writes mount personalonedrive: /home/alec/personalonedrive &
+
+#variable
+alias bc='bspc config'
+alias br='bspc rule'
+
+#Workspaces
+bspc monitor -d 1 2 3 4 5 6 7 8 9 0
+bspc config pointer_modifier mod2 
+#Others
+bc border_width 0
+bc window_gap 10
+bc borderless_monocle true
+bc gapless_monocle true
+bc focus_follows_pointer true
+
+bc split_ratio 0.55
+#bc top_padding 0
+
+#rules
+br -a feh state=floating
+br -a sxiv state=floating
+#br -a mpv state=floating
+br -a discord desktop="dis"
