@@ -1,0 +1,639 @@
+18:55:46 [info] [LOG SESSION] ---------- START ----------
+18:55:46 [info] [PluginFactory] loading plugins
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libopenmptdecoder.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpipewireout.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsndioout.so
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libportaudioout.so
+18:55:46 [error] [PluginFactory] exception while loading plugin /usr/share/musikcube/plugins/libmpris.so: libsystemd.so.0: cannot open shared object file: No such file or directory
+18:55:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+18:55:46 [info] [Indexer] indexer source -1303229654 running...
+18:55:46 [info] [Indexer] indexer source -1303229654 finished
+18:55:46 [info] [Indexer] indexer source 155697690 running...
+18:55:46 [info] [Indexer] indexer source 155697690 finished
+18:55:46 [info] [Indexer] scanning /home/gsh/music/
+18:55:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+18:55:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+18:55:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+18:55:46 [info] [Indexer] scan completed successfully
+18:55:46 [info] [Indexer] cleanup 1/2
+18:55:46 [info] [Indexer] cleanup 2/2
+18:55:46 [info] [Indexer] optimizing
+18:55:46 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
+18:55:46 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
+18:55:46 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
+18:55:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+18:55:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+18:55:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+18:55:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+18:55:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+18:55:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+18:55:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+18:55:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+18:55:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+18:55:47 [info] [CrossfadeTransport] trying to play /home/gsh/music/hyi - i can't wait to be sad and alone on the edge of the universe - 02 s.s.s.s..flac
+18:55:47 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+18:55:47 [info] [Indexer] done!
+18:55:47 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+18:55:47 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+18:55:47 [info] [PortAudioOut] Pa_Initialize() return code: 0
+18:55:47 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+18:55:47 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+18:55:47 [info] [PortAudioOut] Pa_Terminate() return code: 0
+18:55:47 [info] [Player] new instance created
+18:55:47 [info] [Stream] opening /home/gsh/music/hyi - i can't wait to be sad and alone on the edge of the universe - 02 s.s.s.s..flac
+18:55:47 [info] [LocalFileStream] opening file: /home/gsh/music/hyi - i can't wait to be sad and alone on the edge of the universe - 02 s.s.s.s..flac
+18:55:47 [info] [ffmpegdecoder] parsing data stream...
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+18:55:47 [info] [ffmpegdecoder] found audio stream!
+18:55:47 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+18:55:47 [info] [Streams] found a decoder for /home/gsh/music/hyi - i can't wait to be sad and alone on the edge of the universe - 02 s.s.s.s..flac
+18:55:47 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+18:55:47 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+18:55:47 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+18:55:47 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+18:55:47 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+18:55:47 [info] [LocalLibrary] query 'CategoryListQuery' running
+18:55:47 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+18:55:47 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+18:55:47 [info] [LocalLibrary] query 'CategoryListQuery' running
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+18:55:47 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+18:55:47 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+18:55:47 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+18:55:47 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+18:55:47 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+18:55:47 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+18:55:47 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+18:55:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+18:55:48 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+18:55:48 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+18:55:48 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+18:55:48 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+18:55:48 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+18:55:48 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+18:55:48 [info] [CrossfadeTransport] trying to play /home/gsh/music/The Quick Brown Fox - WANDERLUST - 01 LIFELINE.flac
+18:55:48 [info] [PortAudioOut] Pa_Initialize() return code: 0
+18:55:48 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+18:55:48 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+18:55:48 [info] [PortAudioOut] Pa_Terminate() return code: 0
+18:55:48 [info] [PipeWireOut] shutdown started
+18:55:48 [info] [PipeWireOut] shutdown complete
+18:55:48 [info] [Player] new instance created
+18:55:48 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 01 LIFELINE.flac
+18:55:48 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 01 LIFELINE.flac
+18:55:48 [info] [ffmpegdecoder] parsing data stream...
+18:55:48 [info] [ffmpegdecoder] found audio stream!
+18:55:48 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+18:55:48 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 01 LIFELINE.flac
+18:55:48 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+18:55:48 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+18:55:48 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+18:55:48 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+18:55:48 [info] [PipeWireOut] device refresh finished
+18:55:48 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+18:55:48 [info] [PipeWireOut] new stream created and connected successfully
+18:55:48 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+18:55:48 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+18:55:48 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+18:55:48 [info] [PortAudioOut] Pa_Initialize() return code: 0
+18:55:48 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+18:55:48 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+18:55:48 [info] [PortAudioOut] Pa_Terminate() return code: 0
+18:55:48 [info] [Player] new instance created
+18:55:48 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 02 WANDERLUST.flac
+18:55:48 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 02 WANDERLUST.flac
+18:55:48 [info] [ffmpegdecoder] parsing data stream...
+18:55:48 [info] [ffmpegdecoder] found audio stream!
+18:55:48 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+18:55:48 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 02 WANDERLUST.flac
+18:55:48 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+18:55:55 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+18:55:55 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+18:55:55 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+18:56:15 [info] [ffmpegdecoder] finished decoding.
+18:56:16 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+18:56:16 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+18:56:16 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+18:56:16 [info] [PipeWireOut] device refresh finished
+18:56:16 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+18:56:16 [info] [PipeWireOut] new stream created and connected successfully
+18:56:16 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+18:56:16 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+18:56:16 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+18:56:16 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+18:56:16 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+18:56:16 [info] [PortAudioOut] Pa_Initialize() return code: 0
+18:56:16 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+18:56:16 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+18:56:16 [info] [PortAudioOut] Pa_Terminate() return code: 0
+18:56:16 [info] [Player] new instance created
+18:56:16 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 03 BAD DREAM BABY.flac
+18:56:16 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 03 BAD DREAM BABY.flac
+18:56:16 [info] [ffmpegdecoder] parsing data stream...
+18:56:16 [info] [ffmpegdecoder] found audio stream!
+18:56:16 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+18:56:16 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 03 BAD DREAM BABY.flac
+18:56:16 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+18:56:17 [info] [PipeWireOut] drained
+18:56:17 [info] [PipeWireOut] drained
+18:56:17 [info] [PipeWireOut] drained
+18:56:17 [info] [PipeWireOut] drained
+18:56:17 [info] [PipeWireOut] drained
+18:56:17 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+18:56:17 [info] [PipeWireOut] shutdown started
+18:56:17 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+18:56:17 [info] [PipeWireOut] shutdown complete
+18:57:13 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+18:57:13 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+18:57:13 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:00:04 [info] [ffmpegdecoder] finished decoding.
+19:00:04 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:00:04 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+19:00:04 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+19:00:04 [info] [PipeWireOut] device refresh finished
+19:00:04 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+19:00:04 [info] [PipeWireOut] new stream created and connected successfully
+19:00:04 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+19:00:04 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:00:04 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:00:04 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:00:04 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:00:05 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:00:05 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:00:05 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:00:05 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:00:05 [info] [Player] new instance created
+19:00:05 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 04 VIVID.flac
+19:00:05 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 04 VIVID.flac
+19:00:05 [info] [ffmpegdecoder] parsing data stream...
+19:00:05 [info] [ffmpegdecoder] found audio stream!
+19:00:05 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:00:05 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 04 VIVID.flac
+19:00:05 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:00:06 [info] [PipeWireOut] drained
+19:00:06 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:00:06 [info] [PipeWireOut] shutdown started
+19:00:06 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+19:00:06 [info] [PipeWireOut] shutdown complete
+19:00:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:00:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:00:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:01:22 [info] [CrossfadeTransport] trying to play /home/gsh/music/The Quick Brown Fox - WANDERLUST - 04 VIVID.flac
+19:01:22 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:01:22 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+19:01:22 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+19:01:22 [info] [PipeWireOut] device refresh finished
+19:01:22 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+19:01:22 [info] [PipeWireOut] new stream created and connected successfully
+19:01:22 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+19:01:22 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:01:22 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:01:22 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:01:22 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:01:22 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:01:22 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:01:22 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:01:22 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:01:22 [info] [Player] new instance created
+19:01:22 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 05 CRT.flac
+19:01:22 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 05 CRT.flac
+19:01:22 [info] [ffmpegdecoder] parsing data stream...
+19:01:22 [info] [ffmpegdecoder] found audio stream!
+19:01:22 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:01:22 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 05 CRT.flac
+19:01:22 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:01:23 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:01:23 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:01:23 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:01:23 [info] [CrossfadeTransport] trying to play /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:01:23 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:01:23 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:01:23 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:01:23 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:01:23 [info] [Player] new instance created
+19:01:23 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:01:23 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:01:23 [info] [ffmpegdecoder] parsing data stream...
+19:01:23 [info] [PipeWireOut] shutdown started
+19:01:23 [info] [PipeWireOut] shutdown complete
+19:01:23 [info] [ffmpegdecoder] found audio stream!
+19:01:23 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:01:23 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:01:23 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:01:23 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:01:23 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+19:01:23 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+19:01:23 [info] [PipeWireOut] device refresh finished
+19:01:23 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+19:01:23 [info] [PipeWireOut] new stream created and connected successfully
+19:01:23 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+19:01:23 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:01:23 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:01:23 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:01:23 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:01:23 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:01:23 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:01:23 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:01:23 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:01:23 [info] [Player] new instance created
+19:01:23 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:01:23 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:01:23 [info] [ffmpegdecoder] parsing data stream...
+19:01:23 [info] [ffmpegdecoder] found audio stream!
+19:01:23 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:01:23 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:01:23 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:01:23 [info] [CrossfadeTransport] trying to play /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:01:23 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:01:23 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+19:01:23 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+19:01:23 [info] [PipeWireOut] device refresh finished
+19:01:23 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+19:01:23 [info] [PipeWireOut] new stream created and connected successfully
+19:01:23 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+19:01:23 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:01:23 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:01:23 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:01:23 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:01:24 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:01:24 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:01:24 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:01:24 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:01:24 [info] [Player] new instance created
+19:01:24 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:01:24 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:01:24 [info] [ffmpegdecoder] parsing data stream...
+19:01:24 [info] [ffmpegdecoder] found audio stream!
+19:01:24 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:01:24 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:01:24 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:01:24 [info] [PipeWireOut] drained
+19:01:24 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:01:24 [info] [PipeWireOut] shutdown started
+19:01:24 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+19:01:24 [info] [PipeWireOut] shutdown complete
+19:01:25 [info] [CrossfadeTransport] trying to play /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:01:25 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:01:25 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:01:25 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:01:25 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:01:25 [info] [Player] new instance created
+19:01:25 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:01:25 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:01:25 [info] [ffmpegdecoder] parsing data stream...
+19:01:25 [info] [PipeWireOut] shutdown started
+19:01:25 [info] [PipeWireOut] shutdown complete
+19:01:25 [info] [ffmpegdecoder] found audio stream!
+19:01:25 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:01:25 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:01:25 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:01:25 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:01:25 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+19:01:25 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+19:01:25 [info] [PipeWireOut] device refresh finished
+19:01:25 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+19:01:25 [info] [PipeWireOut] new stream created and connected successfully
+19:01:25 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+19:01:25 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:01:25 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:01:25 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:01:25 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:01:25 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:01:25 [info] [Player] new instance created
+19:01:25 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:01:25 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:01:25 [info] [ffmpegdecoder] parsing data stream...
+19:01:25 [info] [ffmpegdecoder] found audio stream!
+19:01:25 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:01:25 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:01:25 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:01:25 [info] [PipeWireOut] drained
+19:01:25 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:01:25 [info] [PipeWireOut] shutdown started
+19:01:25 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+19:01:25 [info] [PipeWireOut] shutdown complete
+19:01:26 [info] [PipeWireOut] drained
+19:01:26 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:01:26 [info] [PipeWireOut] shutdown started
+19:01:26 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+19:01:26 [info] [PipeWireOut] shutdown complete
+19:01:27 [info] [PipeWireOut] drained
+19:01:27 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:01:27 [info] [PipeWireOut] shutdown started
+19:01:27 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+19:01:27 [info] [PipeWireOut] shutdown complete
+19:02:14 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:02:24 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:02:24 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:02:24 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:03:53 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:05:16 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:08:03 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:08:04 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:09:00 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:09:01 [info] [CrossfadeTransport] trying to play /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:09:01 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:09:01 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:09:01 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:09:01 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:09:01 [info] [Player] new instance created
+19:09:01 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:09:01 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:09:01 [info] [ffmpegdecoder] parsing data stream...
+19:09:01 [info] [PipeWireOut] shutdown started
+19:09:01 [info] [PipeWireOut] shutdown complete
+19:09:01 [info] [ffmpegdecoder] found audio stream!
+19:09:01 [info] [CrossfadeTransport] trying to play /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:09:01 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:09:01 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:09:01 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:09:01 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:09:01 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:09:01 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:09:01 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:09:01 [info] [PipeWireOut] shutdown started
+19:09:01 [info] [PipeWireOut] shutdown complete
+19:09:01 [info] [Player] new instance created
+19:09:01 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:09:01 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:09:01 [info] [ffmpegdecoder] parsing data stream...
+19:09:01 [info] [ffmpegdecoder] found audio stream!
+19:09:01 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:09:01 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:09:01 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:09:01 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:09:01 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+19:09:01 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+19:09:01 [info] [PipeWireOut] device refresh finished
+19:09:01 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+19:09:01 [info] [PipeWireOut] new stream created and connected successfully
+19:09:01 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+19:09:01 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:09:01 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:09:01 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:09:01 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:09:01 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:09:01 [info] [Player] new instance created
+19:09:01 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:09:01 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:09:01 [info] [ffmpegdecoder] parsing data stream...
+19:09:01 [info] [ffmpegdecoder] found audio stream!
+19:09:01 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:09:01 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:09:01 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:09:03 [info] [PipeWireOut] drained
+19:09:03 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:09:03 [info] [PipeWireOut] shutdown started
+19:09:03 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+19:09:03 [info] [PipeWireOut] shutdown complete
+19:09:26 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:09:51 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:09:51 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:09:51 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:10:40 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:10:41 [info] [CrossfadeTransport] trying to play /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:10:41 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:10:41 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:10:41 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:10:41 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:10:41 [info] [Player] new instance created
+19:10:41 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:10:41 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:10:41 [info] [PipeWireOut] shutdown started
+19:10:41 [info] [PipeWireOut] shutdown complete
+19:10:41 [info] [ffmpegdecoder] parsing data stream...
+19:10:41 [info] [ffmpegdecoder] found audio stream!
+19:10:41 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:10:41 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:10:41 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:10:41 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:10:41 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+19:10:41 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+19:10:41 [info] [PipeWireOut] device refresh finished
+19:10:41 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+19:10:41 [info] [PipeWireOut] new stream created and connected successfully
+19:10:41 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+19:10:41 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:10:41 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:10:41 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:10:41 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:10:41 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:10:41 [info] [Player] new instance created
+19:10:41 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:10:41 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:10:41 [info] [ffmpegdecoder] parsing data stream...
+19:10:41 [info] [ffmpegdecoder] found audio stream!
+19:10:41 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:10:41 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:10:41 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:10:42 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:10:42 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:11:40 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:11:40 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:11:40 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:12:24 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:12:24 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:12:25 [info] [PipeWireOut] drained
+19:12:25 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:12:25 [info] [PipeWireOut] shutdown started
+19:12:25 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+19:12:25 [info] [PipeWireOut] shutdown complete
+19:12:56 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:13:52 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:13:52 [info] [CrossfadeTransport] trying to play /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:13:52 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:13:52 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+19:13:52 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+19:13:52 [info] [PipeWireOut] device refresh finished
+19:13:52 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+19:13:52 [info] [PipeWireOut] new stream created and connected successfully
+19:13:52 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+19:13:52 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:13:53 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:13:53 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:13:53 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:13:53 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:13:53 [info] [Player] new instance created
+19:13:53 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:13:53 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:13:53 [info] [ffmpegdecoder] parsing data stream...
+19:13:53 [info] [ffmpegdecoder] found audio stream!
+19:13:53 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:13:53 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:13:53 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:13:53 [info] [CrossfadeTransport] trying to play /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:13:53 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:13:53 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:13:53 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:13:53 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:13:53 [info] [Player] new instance created
+19:13:53 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:13:53 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:13:53 [info] [ffmpegdecoder] parsing data stream...
+19:13:53 [info] [PipeWireOut] shutdown started
+19:13:53 [info] [PipeWireOut] shutdown complete
+19:13:53 [info] [ffmpegdecoder] found audio stream!
+19:13:53 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:13:53 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 07 #U6674#U5929#U306e#U9739#U9742.flac
+19:13:53 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:13:53 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:13:53 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+19:13:53 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+19:13:53 [info] [PipeWireOut] device refresh finished
+19:13:53 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+19:13:53 [info] [PipeWireOut] new stream created and connected successfully
+19:13:53 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+19:13:53 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:13:53 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:13:53 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:13:53 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:13:53 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:13:53 [info] [Player] new instance created
+19:13:53 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:13:53 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:13:53 [info] [ffmpegdecoder] parsing data stream...
+19:13:53 [info] [ffmpegdecoder] found audio stream!
+19:13:53 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:13:53 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 08 AUTUMN DAY DISTRACTION.flac
+19:13:53 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:13:54 [info] [PipeWireOut] drained
+19:13:54 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:13:54 [info] [PipeWireOut] shutdown started
+19:13:54 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+19:13:54 [info] [PipeWireOut] shutdown complete
+19:13:55 [info] [PipeWireOut] drained
+19:13:55 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:13:55 [info] [PipeWireOut] shutdown started
+19:13:55 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+19:13:55 [info] [PipeWireOut] shutdown complete
+19:14:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:14:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:14:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:17:48 [info] [ffmpegdecoder] finished decoding.
+19:17:49 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:17:49 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+19:17:49 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+19:17:49 [info] [PipeWireOut] device refresh finished
+19:17:49 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+19:17:49 [info] [PipeWireOut] new stream created and connected successfully
+19:17:49 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+19:17:49 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:17:50 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:17:50 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:17:50 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:17:50 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:17:50 [info] [Player] new instance created
+19:17:50 [info] [Stream] opening /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:17:50 [info] [LocalFileStream] opening file: /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:17:50 [info] [ffmpegdecoder] parsing data stream...
+19:17:50 [info] [ffmpegdecoder] found audio stream!
+19:17:50 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:17:50 [info] [Streams] found a decoder for /home/gsh/music/The Quick Brown Fox - WANDERLUST - 09 JUST HESITATION.flac
+19:17:50 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:17:51 [info] [PipeWireOut] drained
+19:17:51 [info] [PipeWireOut] drained
+19:17:51 [info] [PipeWireOut] drained
+19:17:51 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:17:51 [info] [PipeWireOut] shutdown started
+19:17:51 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+19:17:51 [info] [PipeWireOut] shutdown complete
+19:18:20 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:18:39 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:18:39 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:18:39 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:19:33 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:19:34 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+19:19:34 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+19:19:34 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+19:19:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:19:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:19:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:19:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+19:19:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+19:19:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+19:19:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:19:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:19:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:19:35 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:19:35 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:19:35 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:19:35 [info] [CrossfadeTransport] trying to play /home/gsh/music/Infected Mushroom - Head of NASA and the 2 Amish Boys (2018) [FLAC] [16B-44.1kHz]/01. Infected Mushroom - Bliss on Mushrooms.flac
+19:19:35 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:19:35 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:19:35 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:19:35 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:19:35 [info] [Player] new instance created
+19:19:35 [info] [Stream] opening /home/gsh/music/Infected Mushroom - Head of NASA and the 2 Amish Boys (2018) [FLAC] [16B-44.1kHz]/01. Infected Mushroom - Bliss on Mushrooms.flac
+19:19:35 [info] [LocalFileStream] opening file: /home/gsh/music/Infected Mushroom - Head of NASA and the 2 Amish Boys (2018) [FLAC] [16B-44.1kHz]/01. Infected Mushroom - Bliss on Mushrooms.flac
+19:19:35 [info] [ffmpegdecoder] parsing data stream...
+19:19:35 [info] [PipeWireOut] shutdown started
+19:19:35 [info] [PipeWireOut] shutdown complete
+19:19:35 [info] [ffmpegdecoder] found audio stream!
+19:19:35 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:19:35 [info] [Streams] found a decoder for /home/gsh/music/Infected Mushroom - Head of NASA and the 2 Amish Boys (2018) [FLAC] [16B-44.1kHz]/01. Infected Mushroom - Bliss on Mushrooms.flac
+19:19:35 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:19:35 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:19:35 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=45
+19:19:35 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=46
+19:19:35 [info] [PipeWireOut] device refresh finished
+19:19:35 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+19:19:35 [info] [PipeWireOut] new stream created and connected successfully
+19:19:35 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+19:19:35 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:19:35 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:19:35 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:19:35 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:19:35 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:19:35 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:19:35 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:19:35 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:19:35 [info] [Player] new instance created
+19:19:35 [info] [Stream] opening /home/gsh/music/Infected Mushroom - Head of NASA and the 2 Amish Boys (2018) [FLAC] [16B-44.1kHz]/02. Infected Mushroom - Guitarmass.flac
+19:19:35 [info] [LocalFileStream] opening file: /home/gsh/music/Infected Mushroom - Head of NASA and the 2 Amish Boys (2018) [FLAC] [16B-44.1kHz]/02. Infected Mushroom - Guitarmass.flac
+19:19:35 [info] [ffmpegdecoder] parsing data stream...
+19:19:35 [info] [ffmpegdecoder] found audio stream!
+19:19:35 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:19:35 [info] [Streams] found a decoder for /home/gsh/music/Infected Mushroom - Head of NASA and the 2 Amish Boys (2018) [FLAC] [16B-44.1kHz]/02. Infected Mushroom - Guitarmass.flac
+19:19:35 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:19:37 [info] [PipeWireOut] drained
+19:19:37 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:19:37 [info] [PipeWireOut] shutdown started
+19:19:37 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+19:19:37 [info] [PipeWireOut] shutdown complete
+19:19:38 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:21:04 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)

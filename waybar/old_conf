@@ -1,0 +1,39 @@
+
+{
+    "layer": "top",
+    "position": "top",
+    "height": 24,
+    "margin-left": 5,
+    "margin-right": 5,
+    "margin-top": 5,
+    "modules-left": ["sway/workspaces","sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["network",  "cpu", "memory",  "clock"],
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "disable-click": false,
+        "spacing": 0
+    },
+    "clock": {
+        "format": "{:%a %b %d %R}"
+    },
+    "cpu": {
+        "format": "CPU: {usage}%"
+    },
+    "memory": {
+        "format": "RAM: {}%"
+    },
+          "network": {
+        "format-wifi": "{essid}",
+        "format-disconnected": "Disconnected"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "headphones": "",
+            "default": ["", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+}

@@ -1,0 +1,31 @@
+live_config_reload = true
+import = ["~/.config/alacritty/catppuccin-mocha.toml"]
+[font]
+size = 9.5
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Medium"
+
+[shell]
+program = "/usr/bin/fish"
+
+[window]
+opacity = 0.9
+
+[window.padding]
+x = 20
+y = 20
+

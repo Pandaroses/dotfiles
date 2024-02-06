@@ -1,0 +1,65 @@
+@import "mocha.css";
+
+* {
+  font-family: Jetbrains Mono;
+  font-size: 13px;
+  min-height: 0;
+}
+
+window#waybar {
+  /* background: transparent; */
+  /* background: black; */
+  background: rgba(40, 44, 52, 0);
+  color: @text;
+  border-bottom: 1px solid @overlay0;
+}
+
+
+#workspaces button.focused {
+  color: @green;
+  border-bottom: 1px solid @green;
+}
+
+button:hover {
+  background: inherit;
+  border: 0px;
+  border-top: 0px;
+}
+
+
+#workspaces button.urgent {
+  color: @base;
+  background-color: @red;
+}
+
+#workspaces button {
+  color:@text;
+  margin-right: 0px;
+}
+
+#tray,
+#temperature,
+#clock,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio {
+  padding: 0 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+@keyframes blink {
+  to {
+    background-color: #8fd4ff;
+    color: black;
+  }
+}
+
+
+#network.disconnected {
+  color: @red;
+}

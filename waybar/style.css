@@ -1,0 +1,172 @@
+@import "mocha.css";
+
+/* Keyframes */
+
+@keyframes blink-critical {
+	to {
+		/*color: @white;*/
+		background-color: @critical;
+	}
+}
+
+
+* {
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	text-shadow: none;
+	icon-shadow: none;
+}
+
+/* The whole bar */
+#waybar {
+	background: @base; /* #282828e0 */
+	color: @text;
+	font-family: JetBrains Mono, Siji;
+	font-size: 10pt;
+	/*font-weight: bold;*/
+}
+
+.modules-left {
+  padding-left: 4pt;
+}
+/* Each module */
+#battery,
+#clock,
+#cpu,
+#language,
+#memory,
+#mode,
+#network,
+#pulseaudio,
+#temperature,
+#tray,
+#backlight,
+#idle_inhibitor,
+#disk,
+#user,
+#mpris {
+	padding-left: 8pt;
+	padding-right: 8pt;
+}
+
+/* Each critical module */
+#mode,
+#memory.critical,
+#cpu.critical,
+#temperature.critical,
+#battery.critical.discharging {
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-name: blink-critical;
+	animation-duration: 1s;
+}
+
+/* Each warning */
+#network.disconnected,
+#memory.warning,
+#cpu.warning,
+#temperature.warning,
+#battery.warning.discharging {
+	color: @yellow;
+}
+
+/* And now modules themselves in their respective order */
+
+/* Current sway mode (resize etc) */
+#mode {
+	color: @text;
+	background: @red;
+}
+
+/* Workspaces stuff */
+#workspaces button {
+	/*font-weight: bold;*/
+	padding-left: 3pt;
+	padding-right: 3pt;
+	color: @text;
+	background: @base;
+}
+
+/* Inactive (on unfocused output) */
+#workspaces button.visible {
+	color: @text;
+	background: @mantle;
+}
+
+/* Active (on focused output) */
+#workspaces button.focused {
+	color: @base;
+	background: @green;
+}
+
+/* Contains an urgent window */
+#workspaces button.urgent {
+	color: @base;
+	background: @red;
+}
+
+
+#window {
+	margin-right: 35pt;
+	margin-left: 35pt;
+}
+
+#pulseaudio {
+  background: @teal;
+	color: @base;
+}
+
+#network {
+  background: @sky;
+	color: @base;
+}
+
+#memory {
+  background: @sapphire;
+	color: @base;
+}
+
+#cpu {
+  background: @blue;
+	color: @base;
+}
+
+
+#clock.time {
+  background: @lavender;
+  color: @base;
+}
+
+#custom-arrow1 {
+	font-size: 11pt;
+  background: @blue;
+  color: @lavender;
+}
+
+#custom-arrow2 {
+	font-size: 11pt;
+  background: @sapphire;
+  color: @blue;
+}
+#custom-arrow3 {
+	font-size: 11pt;
+  background: @sky;
+  color: @sapphire;
+}
+#custom-arrow4 {
+	font-size: 11pt;
+  background: @teal;
+  color: @sky;
+}
+#custom-arrow5 {
+	font-size: 11pt;
+  background: @base;
+  color: @teal;
+}
+
+
